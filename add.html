@@ -26,10 +26,10 @@
                 <!-- <a class="col-1 " href="index.html">Log Out</a> -->
                     
                 <!--Imagen Usuario-->
-                <div id="profile-user" class="col-4 offset-3 d-inline-flex">                    
+                <div id="profile-user" class="col-4 offset-3 d-inline-flex d-none">                    
                     <!--<div id="photo-user" class="img-nav border rigth" href="#"></div>-->
-                    <img class="photo-login" src="assets/images/user.jpg" href="user.html" alt="user">
-                    <h5 class="user-name"> Lourdes Atilano </h5>
+                    <img class="photo-login d-none" src="#" href="#" alt="user">
+                    <h5 class="user-name"></h5>
                 </div>
             </div>
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
@@ -38,26 +38,26 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false"></a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="app.html"> Perfil de usuario </a>
-                            <a class="dropdown-item" href="app.html"> Menú Principal </a>
+                            <a class="dropdown-item" href="index.html"> Inicio </a>
                         </div>
                     </li>
                 </ul>
             </div>
         </nav>
         <!-- MAIN -->
-        <main class="border" href="user.html">
-            <h2 id="h2-user-view"class="col-10 offset-1 align-middle"> La mejor opción para tener videos, libros
+        <main class="border align-middle" href="user.html">
+            <h2 id="h2-user-view"class="col-10 offset-1 text-center"> La mejor opción para tener videos, libros
                 y música en un sólo lugar!!!
             </h2>
 
-            <img id="logo-add" class="align-middle rounded align-middle mx-auto d-block bg-primary" src="assets/images/logo-completo.png" href="user.html" alt="logo">
+            <img id="logo-add" class="align-middle rounded align-middle mx-auto d-block bg-primary" src="assets/images/logo-completo.png" alt="logo">
         </main>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>-->
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
         <script src="js/assets/bootstrap.min.js"></script>
-        <!--<script src="js/firebase.js"></script>-->
+        <script src="js/firebase.js"></script>
+        <!--<script src="js/index.js"></script>-->
     </body>
 </html>

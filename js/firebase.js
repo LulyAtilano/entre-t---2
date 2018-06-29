@@ -29,6 +29,6 @@ $('.user-name').append(userInfo.displayName);
 
 $('.logout').click(function(){
     console.log("boton logout clickeado");
-    window.location = "index.html";
+    window.location = "add.html";
     firebase.auth().signOut();
 });
