@@ -9,6 +9,20 @@ var config = {
 
 firebase.initializeApp(config);
 
+//  Variable global con la información del usuario 
+var userInfo = {};
+
+// Función para guardar la info de los usuarios 
+function saveUser(user) {
+    var userInfo = {
+        uid: user.uid,
+        name: user.displayName,
+        photo: user.photoURL,
+    };
+
+   firebase.database().ref("users/" + user.uid).set(userInfo);
+};
+
 $(document).ready(function(){
     console.log('Pagina cargada');
 
@@ -30,14 +44,14 @@ $(document).ready(function(){
     });
 
     $("#btn-login").click(function(){
-        //console.log('login')
+        console.log('login')
         var provider = new firebase.auth.GoogleAuthProvider();
 
         firebase.auth().signInWithPopup(provider).then(function(result){
             saveUser(result.user);
-            //$('#photo-user').append("<img src='" + result.user.photoURL + "' />");
-            //$('.user-name').html('Lourdes Atilano');
-            //$('.user-name').append(result.user.displayName);
+            $('#photo-user').append("<img src='" + result.user.photoURL + "' />");
+            $('.user-name').html('Lourdes Atilano');
+            $('.user-name').append(result.user.displayName);
             console.log(result.user.displayName);
         })
         .catch(function(error) {
@@ -51,6 +65,14 @@ $(document).ready(function(){
             // ...
         });
     
+    });
+
+    firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+        window.location ="user.html";
+        } else {
+        console.log('desloggeado');
+        }
     });
 
 });
