@@ -24,7 +24,7 @@ function saveUser(user) {
 };
 
 var provider = new firebase.auth.GoogleAuthProvider();
-$('.photo-user').append('<img class="photo-login" href="user.html" alt="user" src="' + userInfo.photoURL + '"/>');
+$('.photo-user').append('<img src="' + userInfo.photoURL + '"/>');
 $('.user-name').append(userInfo.displayName);
 
 $('.logout').click(function(){

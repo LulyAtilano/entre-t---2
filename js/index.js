@@ -1,3 +1,17 @@
+//  Variable global con la información del usuario 
+var userInfo = {};
+
+// Función para guardar la info de los usuarios 
+function saveUser(user) {
+    var userInfo = {
+        uid: user.uid,
+        name: user.displayName,
+        photo: user.photoURL,
+    };
+
+   firebase.database().ref("users/" + user.uid).set(userInfo);
+};
+
 $('#btn-signup').click(function(){
     console.log('boton clickeado signup');
 
