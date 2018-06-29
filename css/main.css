@@ -1,0 +1,147 @@
+body{
+   box-sizing: border-box;
+}
+
+/*
+.logo {
+    background-image: url(../assets/images/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15rem;
+    position: absolute;
+    margin:0;
+    top: 15rem;
+} */
+
+/*******HERO PAGE*********/
+#line-menu {
+    display: inline-flex;
+    width: 100%;
+    padding: 0;
+}
+
+#card-log-in{
+    display: block;
+    height: 11em;
+    margin-top: 10rem;
+    margin-left: 0.5rem;
+    position: relative;
+    width: 100%;
+}
+
+.photo-login {
+    height: 2.5em;
+    width: 2.5em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.user-name {
+    height: 28px;
+    position: relative;
+    padding-top: 19px;
+    padding-left: 8px;
+    color: white;
+    /*border: 1px solid blue;*/
+}
+
+#card-btns{
+    position: relative;
+}
+
+#profile-user {
+    position: relative;
+    left: .8em;
+    top: .6em;
+    padding-left: 0;
+}
+/*hidden{
+    display: none;
+}*/
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.offsert-3 {
+    margin-left: 25%;
+}
+
+/* User View */
+main.border div.jumbotron{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#big-img {
+    border-radius: 50%;
+    left: 33%;
+    right: 33%;
+    top: 90%;
+    position: relative;
+}
+
+#h4-user {
+    position: relative;
+    left: 2em;
+}
+/* add View */
+#h2-user-view{
+    padding-top: 20%;
+}
+
+#logo-add {
+    margin-top: 3em;
+}
+
+/*Books Section*/
+
+div.left {
+    float: left;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+
+}
+
+div.right {
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+div#books-angry{
+    display: none;
+}
+
+div#books-sad{
+    display: none;
+}
+
+div#books-romance{
+    display: none;
+}
+
+div#books-angry{
+    display: none;
+}
+
+div#books-motivational {
+    display: none;
+}
+
+.title-info {
+    display: none;
+}
+
+/****************HEADER-HERO**********************/
+div#song > iframe{
+    margin-top: 15px;
+}
+
+/* Bordes del menu hamburguesa */
+.navbar-toggler {
+    border-width: 0;
+}

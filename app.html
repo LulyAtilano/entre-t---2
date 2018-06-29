@@ -1,0 +1,310 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Entre-T </title>
+        <link rel="stylesheet" href="css/assets/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!-- NAV BAR -->
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div id="line-menu" class="col 12">
+                <!--Menu Hamburguesa-->
+                <button class="col-2 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <a class="col-3 navbar-brand" href="index.html">
+                    <img id="logo-nav" class="img-nav bg-primary" src="assets/images/logo-letras.png" alt="logo">
+                </a>
+        
+                <!--Log Out-->
+                <!-- <a id="btn-logout" class="col-1 " href="index.html">Log Out</a> -->
+                
+                <!--Imagen Usuario-->
+                <div id="profile-user" class="col-4 offset-3 hidden d-inline-flex">                    
+                    <!--<div id="photo-user" class="img-nav border rigth" href="#"></div>-->
+                    <img class="photo-login" src="assets/images/user.jpg" href="user.html" alt="user">
+                    <h5 class="user-name"> Lourdes Atilano </h5>
+                </div>
+            </div>
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto nav-item active">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false"></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-primary" href="#videos-area"> Videos </a>
+                                <a class="dropdown-item text-primary" href="#music-area"> Música </a>
+                                <a class="dropdown-item text-primary" href="#books-area"> Libros </a>
+                                <a class="dropdown-item text-primary" href="#navbarSupportedContent"> Settings </a>
+                                <a class="dropdown-item text-primary font-weight-bold" href="index.html"> Log Out </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="">
+            <div class="col-10 offset-1 text-center">
+                <br>
+                <h4>Lo mejor del entretenimiento al alcance de tus manos.</h4>
+                <span>MUSICA, VIDEOS Y LIBROS</span>
+            </div>
+            <br>
+            <div class="row">
+        
+                <!--CARRUSEL-->
+                <div id="carouselExampleIndicators" class="col-8 offset-2 carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 img-carousel" src="assets/images/s1.jpeg" alt="calypso_fonsi">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 img-carousel" src="assets/images/s2.jpeg" alt="album_morrow5">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 img-carousel" src="assets/images/s3.jpeg" alt="album_morrow5">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-90 img-carousel" src="assets/images/s4.jpeg" alt="album_morrow5">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <br>
+
+        <!--SECCION DE EMOJIS-->
+        <section id="emojis" class="section-icons row">
+            <br>
+            <div class="col-12 text-center ">
+                <h3 class="">¿Cómo te sientes hoy?</h3>
+            </div>
+            
+            <div class="row">
+                <div id="feels" class="">
+                    <a href="#videos-area"><img id="romance-button" class="col-2 offset-2 w-100 emoji-icon btn" src="assets/images/inlove.gif" alt="fantastic"></a>
+                    <a href="#videos-area"><img id="motivational-button" class="col-2 w-100 emoji-icon btn" src="assets/images/happy.gif" alt="happy"></a>
+                    <a href="#videos-area"><img id="sad-button" class="col-2 w-100 emoji-icon btn" src="assets/images/sad.gif" alt="sad"></a>
+                    <a href="#videos-area"><img id="angry-button" class="col-2 w-100 emoji-icon btn" src="assets/images/angry.gif" alt="angry"></a>
+                </div>
+            </div>
+        </section>
+        <br>
+
+        <!-- CONTENEDOR PRINCIPAL -->
+        <main class="row">
+        
+            <!-- AREA VIDEOS -->
+            <section id="videos-area" class="col-10 offset-1 text-center">
+                <div class="row">
+                    <h3 class="col-12 title-info">VIDEOS</h3>
+                </div>
+                <div id="characters-container" class="row"></div>
+                <div id="template-character" class="col-8 offset-2 rounded" style="display:none">
+                    <div>
+                        <iframe width="100%" height="315" src="{{video}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <h5 class="text-center">{{title}}</h5>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- MUSIC -->
+            <section id="music-area" class="row"></section>
+                <h3 class="col-10 title-info text-center">MÚSICA</h3>
+                <div id="song" class="col-10 offset-2  w-130 margin-top: 1rem">
+                <!-- <iframe src="https://open.spotify.com/embed/track/{{id}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
+            </div>
+            <h3 class="title-info text-center">LIBROS</h3>
+            <!--Books Section-->
+            <section>
+                <!--Angry part-->
+                <br>
+                <div id="books-angry">
+                    <div class="bk-angry1">
+                        <div class="left text-center">
+                            <h5>Preguntas y respuestas: Todo lo que siempre has querido saber</h5>
+                            <img src="assets/images/angry1.jpeg">
+                        </div>
+                        <div class="right text-center">
+                            <p>¿Por qué nos mareamos en el asiento de atrás del coche? ¿Cuál fue la primera ciudad que alcanzó un millón de habitantes? ¿Cómo hubieran expelido fuego los dragones? 
+                                Descubre todo esto y muchas cosas más en esta recopilación de preguntas y respuestas</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="bk-angry2">
+                        <div class="left text-center">
+                            <h5>Mi insecto interesante</h5>
+                            <img src="assets/images/angry2.jpeg">
+                        </div>
+                        <div class="right text-center">
+                            <p>La historia de este libro relata el encuentro de Morena con un insecto
+                                bastante extraño, que le resulta muy interesante y del cual no va a
+                                separarse en los próximos días.</p>
+                        </div>  
+                    </div>
+                    <br>
+                    <div class="bk-angry3">
+                        <div class="left text-center">
+                            <h5>Don Quijote. El curioso impertinente</h5>
+                            <img src="assets/images/angry3.jpeg">
+                        </div>
+                        <div class="right text-center">
+                            <p>Considered a novel (in this case a short novel within the novel Don Quijote de la Mancha), 
+                                Cervantes applies his baroque but clear and full of prose to tell Anselmo's tale of proving 
+                                his faithfulness to his wife Camila. The plot begins in medias res, as much that has occured 
+                                isn't explained, captivating the reader from the outset.</p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <!--Sad part-->
+                <br>
+                <div id="books-sad">
+                    <div class="bk-sad1">
+                        <div class="left text-center">
+                            <h5>Novelas y cuentos 1: Edición al cuidado de César Aira</h5>
+                            <img src="assets/images/sad1.jpeg">
+                        </div>
+                        <div class="justify-content-center">
+                            <p>El material fue compilado y transcripto por César Aira y es uno de los
+                                aportes más valiosos a la narrativa argentina reciente.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="bk-sad2">
+                        <div class="left text-center">
+                            <h5>El origen de la tristeza</h5>
+                            <img src="assets/images/sad2.jpeg">
+                        </div>
+                        <div class="justify-content-center">
+                            <p>"El origen de la tristeza" es el mapa moral de un paisaje tallado a golpes de realidad inclemente, de un territorio 
+                                severamente humano que adquiere (por ello) dimensiones míticas. Y es también la estampa de un recuerdo que Pablo Ramos logra 
+                                dibujar con tres lápices bien afilados: la escritura exacta, el humor inmisericorde y la mirada piadosa.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="bk-sad3">
+                        <div class="left text-center">
+                            <h5>La motivación empieza en uno mismo: Aspectos básicos para motivar a los demás y motivarse a sí mismo</h5>
+                            <img src="assets/images/sad3.jpeg">
+                        </div>
+                        <div class="right justify-content-center">
+                            <p>Este es un libro que trata de servir de guía a todas las personas que ejercen la función directiva para conocer y profundizar en 
+                                aspectos tan importantes como son: qué es la motivación, para qué motivar, a quién motivar, que relación hay entre motivación y dinero, 
+                                la desmotivación y cómo motivar a los demás y motivarse a sí mismo.</p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <!--Romance part-->
+                <br>
+                <div id="books-romance">
+                    <div class="bk-romance1">
+                        <div class="left">
+                            <h5>La psicología del amor romántico: El amor romántico en época sin romanticismo</h5>
+                            <img src="assets/images/romance1.jpeg">
+                        </div>
+                        <div class="right">
+                            <p>La psicología del amor romántico explora la naturaleza del amor romántico a muchos niveles: 
+                                filosófico, histórico, sociológico y fisiológico. Nathaniel Branden explica por qué tantas personas afirman que 
+                                el amor romántico no es posible en el mundo actual.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="bk-romance2">
+                        <div class="left">
+                            <h5>Historias de amor</h5>
+                            <img src="assets/images/romance2.jpeg">
+                        </div>
+                        <div class="right">
+                            <p>De los más de mil relatos cortos escritos por Robert Walser unos cien versan sobre el amor. Volker Michels, germanista y autor del
+                                epílogo que acompaña esta edición, seleccionó en 1978 ochenta y los ordenó cronológicamente. Estos relatos demuestran la gran variedad 
+                                del registro expresivo de Robert Walser y dan fe de la evolución de un autor que tenía un concepto poco convencional del amor y del erotismo.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="bk-romance3">
+                        <div class="left">
+                            <h5>Romeo y Julieta (ilustrado)</h5>
+                            <img src="assets/images/romance3.jpeg">
+                        </div>
+                        <div class="right">
+                            <p>Romeo y Julieta es una tragedia de William Shakespeare. Cuenta la historia de dos jóvenes enamorados que, a pesar de la oposición de sus familias, 
+                                rivales entre sí, deciden casarse de forma clandestina y vivir juntos; sin embargo, la presión de esa rivalidad y una serie de fatalidades conducen 
+                                a que la pareja elija el suicidio antes que vivir separados. </p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <!--Motivational part-->
+                <br>
+                <div id="books-motivational">
+                    <div class="bk-motivational1">
+                        <div class="left">
+                            <h5>Ponte Una Flor En El Pelo Y Se Feliz: El Dolor Es Inevitable, Pero El Sentirse Miserable Es Opcional</h5>
+                            <img src="assets/images/motivation1.jpeg">
+                        </div>
+                        <div class="right">
+                            <p>Life isn't always what you want, but it's what you've got, so stick a geranium in your hat and be happy! Humorist Barbara Johnson has healing 
+                                words for people who carry pain and guilt.. </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="bk-motivational2">
+                        <div class="left">
+                            <h5>Decidi Ser Feliz</h5>
+                            <img src="assets/images/motivation2.jpeg">
+                        </div>
+                        <div class="right">
+                            <p>Este libro tiene el propsito básico de relatar vivencias reales, en un nivel espiritual basada en una serie de pensamientos que nacen del alma, 
+                                de la vida misma,  </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="bk-motivational3">
+                        <div class="left">
+                            <h5>¿Por qué ser feliz cuando puedes ser normal?</h5>
+                            <img src="assets/images/motivation3.jpeg">
+                        </div>
+                        <div class="right">
+                            <p>¿Por qué ser feliz cuando puedes ser normal?, preguntó la señora Winterson a su hija Jeanette cuando ella, recién cumplidos 
+                                los dieciséis años, le confesó haberse enamorado de otra chica. </p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </section>
+            
+        </main>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+        <script src="js/assets/bootstrap.min.js"></script>
+        <!--<script src="js/firebase.js"></script>-->
+        <script src="js/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+/**************BARRA DE NAVEGACION*********************/
+.navbar{
+    padding: 1rem 0;
+}
+#logo-nav{
+    height: 3rem;
+    width: 2rem;  
+}
+
+#navbarSupportedContent{
+    margin-top: 1rem;
+}
+

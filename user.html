@@ -1,0 +1,98 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Entre-T </title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/assets/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!-- NAV BAR -->
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div id="line-menu" class="col 12">
+                <!--Menu Hamburguesa-->
+                <button class="col-2 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <a class="col-3 navbar-brand" href="index.html">
+                    <img id="logo-nav" class="img-nav bg-primary" src="assets/images/logo-letras.png" alt="logo">
+                </a>
+        
+                <!--Log Out-->
+                <!-- <a class="col-1 " href="index.html">Log Out</a> -->
+                   
+                <!--Imagen Usuario-->
+                <div id="profile-user" class="col-4 offset-3 d-inline-flex">                    
+                    <!--<div id="photo-user" class="img-nav border rigth" href="#"></div>-->
+                    <img class="photo-login" src="assets/images/user.jpg" href="user.html" alt="user">
+                    <h5 class="user-name"> Lourdes Atilano </h5>
+                </div>
+            </div>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto nav-item active">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary" href="user.html"> Perfil de usuario </a>
+                            <a class="dropdown-item text-primary" href="app.html"> Menú Principal </a>
+                            <a class="dropdown-item text-primary font-weight-bold" href="index.html"> Log out </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- MAIN -->
+        <main class="border ">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <img id="big-img" src="assets/images/user.jpg" style="width: 5em; height: 5em;" class="rounded mx-auto">
+                </div>
+            </div>
+            <h3 class="text-center"> Lourdes Atilano </h3>
+            <p class="text-center"> Guadalajara, Jalisco </p>
+            <p class="text-center"> Laboratoria </p>
+
+
+            <br>
+            <h4 id="h4-user"> Favoritos <i class="far fa-star"></i> </h4>
+            <br>
+            <div class="input-group col-12">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="checkbox" aria-label="Checkbox for following text input">
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox" value="The Beatles">
+            </div>
+            <br>
+            <div class="input-group col-12">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="checkbox" aria-label="Checkbox for following text input">
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox" value="The Avengers">
+            </div>
+            <br>
+            <div class="input-group col-12">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="checkbox" aria-label="Checkbox for following text input">
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox" value="El niño de la piyama de rayas">
+            </div>
+        </main>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>-->
+        <script src="js/assets/bootstrap.min.js"></script>
+        <!--<script src="js/firebase.js"></script>-->
+    </body>
+</html>

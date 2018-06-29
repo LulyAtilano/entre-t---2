@@ -1,0 +1,84 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Entre-T</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/assets/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body class="bg-light">
+        <!-- Imagen splash
+        <div id="splash" class="background-splash">
+            <div class="row border">
+                <div class="col-1 col-lg-12 offset-1 w-100 border logo"></div>
+            <div>
+        </div>
+        CIERRE splash -->
+
+        <!--HERO PAGE-LOG IN-->
+        <div id="card-log-in" class="card row bg-primary">
+            <img id="img-log-in" class="col-11 card-img-top" src="assets/images/logo-letras.png" alt="logo-entre-t">
+            <div class="row">
+                <div id="card-btns" class="card-body col-11">
+                    <div class="row">
+                        <button id="btn-signup" type="button" href="#modal-SignUp" class="col-8 offset-2 btn btn-primary btn-lg bg-success"> SIGN UP </button>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <small id="small-txt "class="col-2 offset-5">or</small>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <button id="btn-login" type="button" class="col-9 offset-2 btn btn-primary btn-lg bg-success"><i class="fab fa-google"></i>  LOG IN WITH GOOGLE </button>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <button id="btn-logout" type="button" class="col-4 offset-4 btn btn-primary btn-lg bg-success d-none"> LOG OUT </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--CIERRE HERO PAGE-->
+
+        <!-- MODAL SIGN UP -->
+        <div class="modal fade" id="modal-SignUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"> Sign Up </h5>
+                        <button type="button" class="close right bg-success" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> Email address </label>
+                                <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted"> We'll never share your email with anyone else. </small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1"> Password </label>
+                                <input type="password" class="form-control" id="input-password" placeholder="Password">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary bg-success" data-dismiss="modal"> Close </button>
+                        <button type="submit" class="btn btn-primary bg-success" id="btn-submit" > Submit </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+        <script src="js/assets/bootstrap.min.js"></script>
+        <!--<script src="js/firebase.js"></script>-->
+        <script src="js/index.js"></script>
+    </body>
+</html>
